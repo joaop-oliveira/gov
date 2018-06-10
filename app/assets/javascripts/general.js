@@ -7,5 +7,5 @@ document.addEventListener("DOMContentLoaded", function () {
       title.appendChild(text);
     }})
     .from(title, 1, {left: 600, opacity: 0})
-    .to(card, 1, {height: 600, ease:Bounce.easeOut});
+    .to(card, 1, {marginBottom: 600, ease:Bounce.easeOut});
 });
