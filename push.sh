@@ -1,6 +1,11 @@
 #! /bin/bash
 
 DATE=`date '+%Y-%m-%d %H:%M:%S'`
+echo "                                         " >> .push_log.txt
+echo "                                         " >> .push_log.txt
+echo "                                         " >> .push_log.txt
+echo "                                         " >> .push_log.txt
+echo "=========================================" >> .push_log.txt
 echo "******** STARTING TO UPDATE REPO ********"
 echo "******** STARTING TO UPDATE REPO ********" >> .push_log.txt
 git pull >> push_log.txt
@@ -15,3 +20,8 @@ echo "******** COMMITED ALL THE FILES ********" >> push_log.txt &7
 git push  >> push_log.txt
 echo "******** COMMITED ALL THE FILES ********" &&
 echo "******** COMMITED ALL THE FILES ********" >>  push_log.txt
+echo "                                         " >> .push_log.txt
+echo "                                         " >> .push_log.txt
+echo "                                         " >> .push_log.txt
+echo "                                         " >> .push_log.txt
+echo "=========================================" >> .push_log.txt

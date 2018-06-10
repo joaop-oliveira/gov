@@ -5,3 +5,13 @@ Already up to date.
 ******** COMMITED ALL THE FILES ********
 Already up to date.
 ******** PULLED FROM REPO ********
+******** STAGED ALL FILES ********
+[master 1c2d127] AUTO COMMIT FROM PUSH.SH 2018-06-10 19:57:07
+ 3 files changed, 29 insertions(+)
+ create mode 100644 .push_log.txt
+ create mode 100755 push.sh
+ create mode 100644 push_log.txt
+******** COMMITED ALL THE FILES ********
+******** COMMITED ALL THE FILES ********
+Already up to date.
+******** PULLED FROM REPO ********
