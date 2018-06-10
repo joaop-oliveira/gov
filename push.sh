@@ -16,7 +16,7 @@ echo "******** STAGED ALL FILES ********"
 echo "******** STAGED ALL FILES ********" >> push_log.txt
 git commit -m "AUTO COMMIT FROM PUSH.SH ${DATE}" >> push_log.txt
 echo "******** COMMITED ALL THE FILES ********" &&
-echo "******** COMMITED ALL THE FILES ********" >> push_log.txt &7
+echo "******** COMMITED ALL THE FILES ********" >> push_log.txt
 git push  >> push_log.txt
 echo "******** PUSHING  ALL THE FILES ********" &&
 echo "******** PUSHING  ALL THE FILES ********" >>  push_log.txt
