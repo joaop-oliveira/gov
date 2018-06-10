@@ -18,8 +18,8 @@ git commit -m "AUTO COMMIT FROM PUSH.SH ${DATE}" >> push_log.txt
 echo "******** COMMITED ALL THE FILES ********" &&
 echo "******** COMMITED ALL THE FILES ********" >> push_log.txt &7
 git push  >> push_log.txt
-echo "******** COMMITED ALL THE FILES ********" &&
-echo "******** COMMITED ALL THE FILES ********" >>  push_log.txt
+echo "******** PUSHING  ALL THE FILES ********" &&
+echo "******** PUSHING  ALL THE FILES ********" >>  push_log.txt
 echo "                                         " >> .push_log.txt
 echo "                                         " >> .push_log.txt
 echo "                                         " >> .push_log.txt
