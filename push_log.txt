@@ -210,3 +210,10 @@ Already up to date.
 ******** PUSHING  ALL THE FILES ********
 Already up to date.
 ******** PULLED FROM REPO ********
+******** STAGED ALL FILES ********
+[master 8548d75] AUTO COMMIT FROM PUSH.SH 2018-06-10 20:31:49
+ 3 files changed, 15 insertions(+), 1 deletion(-)
+******** COMMITED ALL THE FILES ********
+******** PUSHING  ALL THE FILES ********
+Already up to date.
+******** PULLED FROM REPO ********
