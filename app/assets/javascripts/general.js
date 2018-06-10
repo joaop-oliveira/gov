@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const title = document.querySelector('#titleGeneral');
     const text = document.createTextNode('Hello General');
     tl.to(card, 2, {width: 1000, opacity: 1, onComplete: function() {
-      card.appendText(text);
+      card.appendChild(text);
     }})
         .from(title, 1, {left: 600, opacity: 0});
 });
