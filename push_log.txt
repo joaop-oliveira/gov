@@ -322,3 +322,15 @@ Already up to date.
 ******** PUSHING  ALL THE FILES ********
 Already up to date.
 ******** PULLED FROM REPO ********
+******** STAGED ALL FILES ********
+[master 07e30e6] AUTO COMMIT FROM PUSH.SH 2018-06-10 21:06:32
+ 7 files changed, 31 insertions(+)
+ create mode 100644 app/assets/javascripts/pla_organize.coffee
+ create mode 100644 app/assets/stylesheets/pla_organize.scss
+ create mode 100644 app/controllers/pla_organize_controller.rb
+ create mode 100644 app/helpers/pla_organize_helper.rb
+ create mode 100644 test/controllers/pla_organize_controller_test.rb
+******** COMMITED ALL THE FILES ********
+******** PUSHING  ALL THE FILES ********
+Already up to date.
+******** PULLED FROM REPO ********
