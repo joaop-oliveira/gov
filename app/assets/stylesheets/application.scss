@@ -35,6 +35,8 @@
   @extend .btn;
   backgorund-color: white !important;
   position: relative;
+  height: 100px;
+  width: 100px;
   border-radius: 10px;
   transition: all 0.7777777s ease 0s;
   box-shadow: 0 9px 12px -6px rgba(0,0,0,.2), 0 19px 29px 2px rgba(0,0,0,.14), 0 7px 36px 6px rgba(0,0,0,.12);
@@ -42,7 +44,6 @@
 
 .button-new:hover {
   border-radius: 100px;
-  box-shadow: 0 9px 12px -6px rgba(0,0,0,.2), 0 19px 29px 2px rgba(0,0,0,.14), 0 7px 36px 6px rgba(0,0,0,.12);
 }
 
 .card-new {
