@@ -7,14 +7,14 @@ echo "******** STARTING TO UPDATE REPO ********"  >> push_log.txt
 echo "******** STARTING TO UPDATE REPO ********"  >> push_log.txt
 echo "*****************************************"  >> push_log.txt
 echo "========================================="  >> push_log.txt
-echo \ &&
+echo "\n" >> push_log.txt
 echo "++++++++++++++++++++++++++++++++++++++++" >> push_log.txt
-echo \ &&
+echo "\n" >> push_log.txt
 
 git pull >> push_log.txt
 
 echo "++++++++++++++++++++++++++++++++++++++++" >> push_log.txt
-echo \ &&
+echo "\n" >> push_log.txt
 echo "**********************************" >> push_log.txt
 echo "******** PULLED FROM REPO ********" >> push_log.txt
 echo "******** PULLED FROM REPO ********" >> push_log.txt
