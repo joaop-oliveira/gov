@@ -33,6 +33,7 @@
 
 .button-new {
   @extend .btn;
+  backgorund-color: white !important;
   position: relative;
   border-radius: 10px;
   transition: all 0.7777777s ease 0s;
