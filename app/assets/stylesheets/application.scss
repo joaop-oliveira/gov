@@ -33,6 +33,7 @@
 
 .button-new {
   @extend .btn;
+  opacity: 0;
   position: relative;
   margin-top: 65px !important;
   background: white !important;
