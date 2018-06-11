@@ -33,7 +33,7 @@
 
 .button-new {
   position: relative;
-  background-color: white !important;
+  background: white !important;
   color: '#448fd0' !important;
   height: 90px;
   width: 90px;
@@ -44,7 +44,7 @@
 }
 
 .button-new:hover {
-  background-color: '#448fd0' !important;
+  background: '#448fd0' !important;
   color: white important;
   border-radius: 100px;
 }
