@@ -21,9 +21,9 @@
           <%= yield %>
         </div> 
       </div>
-      <%= link_to "Sign Up!", new_user_registration_path, class: "button-new"%>
-      <%= link_to "Sign Up!", new_user_registration_path, class: "button-new"%>
-      <%= link_to "Sign Up!", new_user_registration_path, class: "button-new"%>
+      <%= link_to "Sign Up!", new_user_registration_path, id: "signUp", class: "button-new"%>
+      <%= link_to "Sign Up!", new_user_registration_path, id: "signIn", class: "button-new"%>
+      <%= link_to "Sign Up!", new_user_registration_path, id: "logout",  class: "button-new"%>
     </div>
   </body>
 </html>
