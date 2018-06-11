@@ -7,6 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
     tl.to(card, 1, {width: 1000, opacity: 1, ease:Bounce.easeOut, onComplete: function() {
       title.appendChild(text);
     }})
-    .from(title, 1, {left: 600, opacity: 0})
-    .to(aux, 1, {bottom: 600, ease:Bounce.easeOut});
+    .to(card, 1, {height: 800 , ease:Bounce.easeOut})
+    .from(title, .5, {left: 600, opacity: 0})
 });
