@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }})
     .to(card, 1, {height: 800 , ease:Bounce.easeOut})
     .from(title, .5, {left: 600, opacity: 0})
-    .from(signUp, 1, {left: 600, rotate: 180}, 0.5)
-    .from(signIn, 1, {left: 600, rotate: 180}, 0.5)
-    .from(logout, 1, {left: 600, rotate: 180}, 0.5)
+    .from(signUp, 1, {left: 500, rotate: 180})
+    .from(signIn, 1, {left: 250, rotate: 180})
+    .from(logout, 1, {left: 125, rotate: 180})
 });
