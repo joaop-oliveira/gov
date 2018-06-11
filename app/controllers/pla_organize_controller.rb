@@ -1,0 +1,2 @@
+class PlaOrganizeController < ApplicationController
+end
