@@ -1,5 +1,3 @@
-******** PUSHING  ALL THE FILES ********
-Already up to date.
 **********************************
 ******** PULLED FROM REPO ********
 ******** PULLED FROM REPO ********
