@@ -3,5 +3,6 @@ class PlaOrganizeController < ApplicationController
     @po = new PlaOrganize
   end
   def create
+
   end
 end
