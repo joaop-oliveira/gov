@@ -31,13 +31,13 @@ echo "========================================" >> push_log.txt
 echo "******** COMMITED ALL THE FILES ********" >> push_log.txt
 echo "******** COMMITED ALL THE FILES ********" >> push_log.txt
 echo "========================================" >> push_log.txt
-echo "++++++++++++++++++++++++++++++++++++++++" >> push_log.txt
 
 git push >> push_log.txt
-
-echo "++++++++++++++++++++++++++++++++++++++++" >> push_log.txt
 
 echo "========================================"  >> push_log.txt
 echo "******** PUSHING  ALL THE FILES ********"  >> push_log.txt
 echo "******** PUSHING  ALL THE FILES ********"  >> push_log.txt
-echo "=========================================" >> push_log.txt
+echo "=========================================" >> push_log.txt\
+
+echo "DONE"
+sleep 3s
