@@ -34,8 +34,8 @@
 .button-new {
   @extend .btn;
   position: relative;
-  backgorund-color: white !important;
-  text-color: '#448fd0';
+  background-color: white !important;
+  color: '#448fd0'; !important
   height: 90px;
   width: 90px;
   padding-top: 30px;
@@ -45,8 +45,8 @@
 }
 
 .button-new:hover {
-  background-color: '#448fd0';
-  text-color: white;
+  background-color: '#448fd0'; !important
+  color: white; !improtant
   border-radius: 100px;
 }
 
