@@ -22,8 +22,8 @@
         </div> 
       </div>
       <%= link_to "Sign Up!", new_user_registration_path, id: "signUp", class: "button-new"%>
-      <%= link_to "Sign Up!", new_user_registration_path, id: "signIn", class: "button-new"%>
-      <%= link_to "Sign Up!", new_user_registration_path, id: "logout",  class: "button-new"%>
+      <%= link_to "Sign In!", new_user_session_path, id: "signIn", class: "button-new"%>
+      <%= link_to "Logout!", destroy_user_session_path, method: :delete,  id: "logout",  class: "button-new"%>
     </div>
   </body>
 </html>
