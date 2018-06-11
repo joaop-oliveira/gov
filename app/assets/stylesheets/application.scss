@@ -20,9 +20,25 @@
 .background-default {
   background-color: #b6e7cb;
 }
+
 .text-default {
  font-family:'Raleway';
 }
+
+.alert-new {
+  @extend .alert
+  box-shadow: 0 9px 12px -6px rgba(0,0,0,.2), 0 19px 29px 2px rgba(0,0,0,.14), 0 7px 36px 6px rgba(0,0,0,.12);
+}
+
+.button-new {
+  @extend .btn
+  border-radius: 10px;
+}
+
+.button-new:hover {
+  box-shadow: 0 9px 12px -6px rgba(0,0,0,.2), 0 19px 29px 2px rgba(0,0,0,.14), 0 7px 36px 6px rgba(0,0,0,.12);
+}
+
 .card-new {
   @extend .card;
   box-shadow: 0 9px 12px -6px rgba(0,0,0,.2), 0 19px 29px 2px rgba(0,0,0,.14), 0 7px 36px 6px rgba(0,0,0,.12);
