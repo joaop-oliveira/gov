@@ -1007,3 +1007,11 @@ Already up to date.
 ******** PUSHING  ALL THE FILES ********
 Already up to date.
 ******** PULLED FROM REPO ********
+******** STAGED ALL FILES ********
+[master 71fb77b] AUTO COMMIT FROM PUSH.SH 2018-06-10 22:59:32
+ 3 files changed, 46 insertions(+), 31 deletions(-)
+ rewrite app/views/devise/registrations/new.html.erb (60%)
+******** COMMITED ALL THE FILES ********
+******** PUSHING  ALL THE FILES ********
+Already up to date.
+******** PULLED FROM REPO ********
