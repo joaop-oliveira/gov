@@ -10,12 +10,14 @@ echo "******** STARTING TO UPDATE REPO ********"  >> .push_log.txt
 echo "*****************************************"  >> .push_log.txt
 echo "========================================="  >> .push_log.txt
 
-git pull | tee push_log.txt
+git pull >>  push_log.txt
 
+echo "**********************************" >> push_log.txt
 echo "******** PULLED FROM REPO ********" >> push_log.txt
 echo "******** PULLED FROM REPO ********" >> push_log.txt
+echo "----------------------------------" >> push_log.txt
 
-git add .| tee  push_log.txt
+git add . >>  push_log.txt
 
 echo "******** STAGED ALL FILES ********"
 echo "******** STAGED ALL FILES ********" >> push_log.txt
