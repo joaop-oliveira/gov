@@ -22,9 +22,8 @@
         <% end -%>
       <div class="actions">
         <%= f.submit "Log in", class: "btn btn-success" %>
+        <%= link_to "Sign In!", new_user_registration_path, id: "signIn", class: "btn btn-primary"%>
       </div>
     <% end %>
-
-    <%= render "devise/shared/links" %>
   </div>
 </div>
