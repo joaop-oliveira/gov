@@ -9,5 +9,5 @@ document.addEventListener("DOMContentLoaded", function () {
     }})
     .to(card, 1, {height: 800 , ease:Bounce.easeOut})
     .from(title, .5, {left: 600, opacity: 0})
-    .staggerFrom('.button-new a', 1, {left: 600, rotate: 180}, 0.5);
+    .staggerFrom('.button-new', 1, {left: 600, rotate: 180}, 0.5);
 });
