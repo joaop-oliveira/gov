@@ -1071,3 +1071,11 @@ Already up to date.
 ******** PUSHING  ALL THE FILES ********
 Already up to date.
 ******** PULLED FROM REPO ********
+******** STAGED ALL FILES ********
+[master c3c7eff] AUTO COMMIT FROM PUSH.SH 2018-06-10 23:09:41
+ 3 files changed, 44 insertions(+), 26 deletions(-)
+ rewrite app/views/devise/sessions/new.html.erb (97%)
+******** COMMITED ALL THE FILES ********
+******** PUSHING  ALL THE FILES ********
+Already up to date.
+******** PULLED FROM REPO ********
