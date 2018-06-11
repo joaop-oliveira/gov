@@ -12,11 +12,15 @@
   <body class="background-default">
     <div class="container">
       <div class="row">
+        <% flash.each do |key, value| %>
+          <div class="<% flash.class(key)  %>">
+            <%= value %>
+          </div>
+        <% end %>
         <div class="col-md-12">
           <%= yield %>
         </div>
       </div>
     </div>
-<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>-->
   </body>
 </html>
