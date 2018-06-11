@@ -586,3 +586,10 @@ Already up to date.
 ******** PUSHING  ALL THE FILES ********
 Already up to date.
 ******** PULLED FROM REPO ********
+******** STAGED ALL FILES ********
+[master 6ffbbca] AUTO COMMIT FROM PUSH.SH 2018-06-10 21:49:28
+ 2 files changed, 14 insertions(+)
+******** COMMITED ALL THE FILES ********
+******** PUSHING  ALL THE FILES ********
+Already up to date.
+******** PULLED FROM REPO ********
