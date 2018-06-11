@@ -32,6 +32,7 @@
 }
 
 .button-new {
+  @extend .btn;
   position: relative;
   background: white !important;
   color: '#448fd0' !important;
