@@ -1,11 +1,11 @@
 #! /bin/bash
 
 DATE=`date '+%Y-%m-%d %H:%M:%S'`
-echo "                                         " >> .push_log.txt
-echo "                                         " >> .push_log.txt
-echo "=========================================" >> .push_log.txt
-echo "******** STARTING TO UPDATE REPO ********"
-echo "******** STARTING TO UPDATE REPO ********" >> .push_log.txt
+echo "                                         " | tee .push_log.txt
+echo "                                         " | tee  >> .push_log.txt
+echo "=========================================" | tee  >> .push_log.txt
+echo "******** STARTING TO UPDATE REPO ********" | tee  >> .push_log.txt
+echo "******** STARTING TO UPDATE REPO ********" | tee  >> .push_log.txt
 git pull | tee push_log.txt
 echo "******** PULLED FROM REPO ********"
 echo "******** PULLED FROM REPO ********" >> push_log.txt
